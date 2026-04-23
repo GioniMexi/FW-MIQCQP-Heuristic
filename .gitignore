@@ -1,0 +1,8 @@
+.vscode/
+.DS_Store
+results*/
+tmp/
+heuristic_binary/
+build*/
+__pycache__
+*.zip

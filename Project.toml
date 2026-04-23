@@ -1,0 +1,35 @@
+name = "PrimalHeuristic"
+uuid = "e26ef78c-7300-4d26-85ae-89979bff5ad0"
+
+[deps]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+Boscia = "36b166db-dac5-4d05-b36a-e6c4cef071c9"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+FrankWolfe = "f55ce6ea-fdc5-4628-88c5-0087fe54bd30"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+Gurobi = "2e9cd046-0924-5485-92f1-d5272153d98b"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
+PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
+
+[compat]
+ArgParse = "1.2.0"
+Dates = "1.11.0"
+FrankWolfe = "= 0.4.11"
+Graphs = "1.12.0"
+Gurobi = "= 1.7.2"
+JSON = "0.21.4"
+PrettyTables = "2.4.0"
+ProgressMeter = "1.10.2"
+TimerOutputs = "0.5.28"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
